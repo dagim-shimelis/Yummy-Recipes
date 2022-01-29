@@ -1,0 +1,14 @@
+{
+  "name": "yummy-recipes",
+  "version": "1.0.0",
+  "description": "A site for posting recipes",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/style.css"
+  },
+  "author": "Dagim-shimelis",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.0.18"
+  }
+}
