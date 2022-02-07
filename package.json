@@ -4,7 +4,7 @@
   "description": "A site for posting recipes",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/style.css -o public/style.css"
+    "build-css": "tailwindcss -i src/style.css -o public/style.css --watch"
   },
   "author": "Dagim-shimelis",
   "license": "MIT",
